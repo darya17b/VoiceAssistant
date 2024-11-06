@@ -6,4 +6,7 @@ import base64
 
 def main():
     st.sidebar.title("API KEY CONFIGURATION")
-    api_key = st.sidebar.text_input("Please enter your API key!: ")
+    api_key = st.sidebar.text_input("Please enter your API key!: ", type = "password") # could remove and include my api key
+
+    st.title("AI Voice Assistant")
+    st.write("Click on the voice recorder and tell me a prompt, I'll respond!")
